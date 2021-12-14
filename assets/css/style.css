@@ -300,6 +300,7 @@ p{
 .work_scroll_image img {
 	width: 100%;
 	height: auto;
+  border-radius: 20px;
 }
 .work_scroll_image::-webkit-scrollbar {
   display: none !important;
@@ -363,6 +364,7 @@ p{
 .contorl_image_scroll img {
 	width: 100%;
 	height: auto;
+  border-radius: 20px;
 }
 .control_content h4 {
 	font-style: normal;
@@ -391,4 +393,75 @@ p{
 .control_content a:hover {
   background: #1C4772;
   color: #FFF;
+}
+
+/* Feature Section Css  */
+.future_section{
+  background: #EBF4FF;
+}
+.future_title h4 {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 46px;
+	text-align: center;
+	font-feature-settings: 'liga' off;
+	color: #1C4772;
+	padding-bottom: 16px;
+}
+.future_title {
+	max-width: 852px;
+	margin: auto;
+  width: 100%;
+  margin-bottom: 64px;
+}
+.future_image_scroll {
+	filter: drop-shadow(48px 24px 48px rgba(24, 37, 56, 0.12));
+	border-radius: 20px;
+	height: 611px;
+	overflow-x: hidden !important;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	cursor: all-scroll;
+  margin-bottom: -203px;
+}
+.future_image_scroll img {
+	width: 100%;
+	height: auto;
+  border-radius: 20px;
+} 
+.contorl_image_scroll::-webkit-scrollbar, .future_image_scroll::-webkit-scrollbar {
+  display: none !important;
+}
+.transcribing_section.bg_white.sp {
+	padding-top: 180px;
+}
+.transcribin_item h4 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	color: #1C4772;
+	margin-bottom: 22px;
+}
+.transcribin_item p {
+	font-size: 16px;
+	line-height: 26px;
+}
+.transcribin_item p a {
+	color: #1C4772;
+	text-decoration: underline !important;
+}
+.transcribin_item_2{
+  position: relative;
+}
+.transcribin_item_2::after {
+	position: absolute;
+	content: "";
+	background-image: url('../images/icon/Polygon.svg');
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	left: -26px;
+	top: 12px;
 }
