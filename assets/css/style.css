@@ -282,7 +282,7 @@ img{
 .work_scroll_image {
 	filter: drop-shadow(48px 24px 48px rgba(24, 37, 56, 0.12));
 	border-radius: 0px 20px 20px 0px;
-	height: 425px;
+	height: 443px;
 	overflow-x: hidden !important;
 	overflow-y: scroll;
 	scrollbar-width: none;
@@ -302,4 +302,41 @@ img{
 	border-radius: 8px;
 	overflow: hidden;
 	padding: 0px;
+}
+.accordion-button {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	color: #1C4772;
+	padding: 12px 20px;
+}
+.accordion-flush .accordion-item {
+	border-bottom: 0;
+}
+.accordion-button:not(.collapsed) {
+	color: #1C4772;
+	background-color: #FFF;
+  box-shadow: 0 0 0 #FFF !important;
+}
+.accordion-button:focus {
+	z-index: 3;
+	border-color: #FFF;
+	outline: 0;
+	box-shadow: 0 0 0 #FFF !important;
+}
+.accordion-body p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #666666;
+}
+.accordion-body {
+	padding: 4px 29px 4px 20px;
+}
+.accordion-button::after {
+	width: 1rem;
+	height: 1rem;
+	background-size: 1rem;
 }
