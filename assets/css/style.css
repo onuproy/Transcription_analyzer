@@ -414,6 +414,9 @@ p{
   width: 100%;
   margin-bottom: 64px;
 }
+.future_title a{
+  color: #A2122C;
+}
 .future_image_scroll {
 	filter: drop-shadow(48px 24px 48px rgba(24, 37, 56, 0.12));
 	border-radius: 20px;
@@ -475,6 +478,9 @@ p{
 	border-radius: 16px;
 	padding: 30px 0px 30px 30px;
 	align-items: center;
+	margin-bottom: -159px;
+	z-index: 1010;
+	position: relative;
 }
 .sub_image_t{
   padding-right: 0px;
@@ -499,7 +505,9 @@ p{
 	font-size: 16px;
 	line-height: 24px;
 	color: #1C4772;
-	padding: 15px 24px;
+	padding: 16px 24px;
+	border-radius: 4px 0px 0px 4px;
+	border: 0;
 }
 .subcribe_now_btn button {
 	width: 30%;
@@ -514,6 +522,10 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	border: none;
 	padding: 14px 3px;
+  transition: 0.5s;
+}
+.subcribe_now_btn button:hover{
+  background: #6A0C1D;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #1C4772;
@@ -526,4 +538,9 @@ p{
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #1C4772;
+}
+.border_top_ben {
+	border-bottom: 1px solid #D8DDED;
+	padding-top: 80px;
+	margin-bottom: 72px;
 }
