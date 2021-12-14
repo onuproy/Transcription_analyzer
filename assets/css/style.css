@@ -118,8 +118,8 @@ img{
 }
 p{
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 19px;
+	line-height: 27px;
   color: #666666;
 }
 .small_button a {
@@ -279,8 +279,8 @@ p{
 
 .work_easier_text p {
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 19px;
+	line-height: 27px;
   color: #666666;
 }
 .work_easier_text p a {
@@ -347,4 +347,48 @@ p{
 	width: 1rem;
 	height: 1rem;
 	background-size: 1rem;
+}
+.contorl_image_scroll {
+	height: 400px;
+	overflow-x: hidden !important;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	cursor: all-scroll;
+	filter: drop-shadow(48px 24px 48px rgba(24, 37, 56, 0.12));
+	border-radius: 20px;
+}
+.control_content {
+	padding-right: 40px;
+}
+.contorl_image_scroll img {
+	width: 100%;
+	height: auto;
+}
+.control_content h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+	color: #1C4772;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+.control_content a {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+	background: #A2122C;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 13px 32px;
+	margin-top: 48px;
+  transition: 0.5s;
+}
+.control_content a:hover {
+  background: #1C4772;
+  color: #FFF;
 }
