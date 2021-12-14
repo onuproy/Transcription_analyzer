@@ -544,3 +544,29 @@ p{
 	padding-top: 80px;
 	margin-bottom: 72px;
 }
+.table_image img{
+  width: 100%;
+}
+.benifits_section .future_title {
+	margin-bottom: 54px;
+}
+.price_section_area {
+	padding-top: 165px;
+	padding-bottom: 100px;
+	background-image: url('../images/banner/f_banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.table_image {
+	margin-bottom: -90px;
+}
+.p_small_price strong {
+	color: #FFF;
+	display: block;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 56px;
+	color: #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+}
