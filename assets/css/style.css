@@ -570,3 +570,44 @@ p{
 	color: #FFFFFF;
 	font-family: 'Josefin Sans', sans-serif;
 }
+.price_content_area {
+	display: flex;
+	align-items: first baseline;
+	justify-content: flex-end;
+}
+.price_content h4 {
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 43px;
+	line-height: 43px;
+	color: #FFFFFF;
+	width: 262px;
+}
+.price_discunt strong {
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 74.8175px;
+	line-height: 75px;
+	color: #FFFFFF;
+	display: block;
+}
+.price_discunt a {
+	background: #49C21F;
+	border-radius: 10px;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 28px;
+	display: flex;
+	align-items: flex-end;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 14px 21px;
+	cursor: pointer;
+}
+.price_discunt {
+	text-align: center;
+}
