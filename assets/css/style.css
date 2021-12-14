@@ -611,3 +611,65 @@ p{
 .price_discunt {
 	text-align: center;
 }
+/* Foote Css  */
+.footer_area{
+  background: #EBF4FF;
+}
+.footer_content {
+	margin: auto;
+	text-align: center;
+	width: 789px;
+  position: relative;
+}
+.footer_content h3 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 53px;
+	text-align: center;
+	color: #1C4772;
+	margin-bottom: 24px;
+}
+.footer_content p {
+	width: 662px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+.footer_content a {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+	background: #A2122C;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 13px 32px;
+	margin-top: 20px;
+	transition: 0.5s;
+}
+.footer_content a:hover {
+	background: #1C4772;
+	color: #FFF;
+}
+.footer_content::after {
+	position: absolute;
+	content: "";
+	background-image: url('../images/banner/head_full.png');
+	width: 260px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	left: -252px;
+	top: -133px;
+}
+.footer_area.sp {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.transcribin_item {
+	width: 90%;
+}
