@@ -282,17 +282,24 @@ img{
 .work_scroll_image {
 	filter: drop-shadow(48px 24px 48px rgba(24, 37, 56, 0.12));
 	border-radius: 0px 20px 20px 0px;
-	height: 495px;
+	height: 425px;
 	overflow-x: hidden !important;
 	overflow-y: scroll;
 	scrollbar-width: none;
   cursor: all-scroll;
+  margin-right: 40px;
 }
 .work_scroll_image img {
 	width: 100%;
 	height: auto;
 }
-
 .work_scroll_image::-webkit-scrollbar {
   display: none !important;
+}
+.work_accrodion {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+	overflow: hidden;
+	padding: 0px;
 }
