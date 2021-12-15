@@ -544,9 +544,7 @@ p{
 	padding-top: 80px;
 	margin-bottom: 72px;
 }
-.table_image img{
-  width: 100%;
-}
+
 .benifits_section .future_title {
 	margin-bottom: 54px;
 }
@@ -557,9 +555,7 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.table_image {
-	margin-bottom: -90px;
-}
+
 .p_small_price strong {
 	color: #FFF;
 	display: block;
@@ -599,10 +595,8 @@ p{
 	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 28px;
-	line-height: 28px;
-	display: flex;
-	align-items: flex-end;
+	font-size: 26px;
+	line-height: 23px;
 	color: #FFFFFF;
 	display: inline-block;
 	padding: 14px 21px;
@@ -679,6 +673,11 @@ p{
 	border: 1px solid #E4E6EC;
 	box-sizing: border-box;
 	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: -90px;
+	z-index: 1010;
+	position: relative;
+	background: #FFF;
 }
 .table > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(1) {
 	width: 45%;
@@ -702,6 +701,15 @@ p{
 	line-height: 23px;
 	padding: 13px 24px;
 }
+.benifits_table .table tbody tr td strong {
+	color: #18191F;
+}
 .table.table-striped {
 	margin-bottom: 0;
+}
+.last_child_tr td{
+	color: #18191F;
+}
+.last_child_tr td {
+	color: #18191F !important;
 }
