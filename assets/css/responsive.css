@@ -23,8 +23,8 @@
 	}
 	p {
 		font-weight: 500;
-		font-size: 19px;
-		line-height: 27px;
+		font-size: 15px;
+		line-height: 24px;
 		color: #666666;
 	}
 	.sp {
@@ -34,12 +34,194 @@
 	.services_single_item {
 		margin-bottom: 40px;
 	}
+	.services_single_item p {
+		font-size: 15px;
+		line-height: 22px;
+		width: 100%;
+	}
+	.border_top_d {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.work_easier_text h2 {
+		font-size: 30px;
+		line-height: 35px;
+		padding-bottom: 9px;
+	}
+	.accordion-button {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+	.accordion-body p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.work_scroll_image {
+		height: 442px;
+	}
+	.control_content img {
+		height: 50px;
+	}
+	.control_content a {
+		font-size: 16px;
+		line-height: 28px;
+		padding: 9px 29px;
+		margin-top: 22px;
+	}
+	.control_content h4 {
+		font-size: 18px;
+		line-height: 25px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.contorl_image_scroll {
+		height: 353px;
+	}
+	.future_title h4 {
+		font-size: 30px;
+		line-height: 35px;
+		padding-bottom: 16px;
+	}
+	.transcribing_section.bg_white.sp {
+		padding-top: 200px;
+	}
+	.transcribin_item p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.transcribin_item {
+		width: 100%;
+	}
+	.transcribin_item h4 {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 20px;
+	}
+	.table > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(2) {
+		width: 26%;
+	}
+	.benifits_table {
+		margin-bottom: -130px;
+	}
+	.benifits_table .table thead tr th {
+		font-size: 16px;
+		line-height: 20px;
+		padding: 12px 15px;
+	}
+	.benifits_table .table tbody tr td {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 12px 15px;
+	}
+	.p_small_price strong {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.price_content h4 {
+		font-size: 33px;
+		line-height: 40px;
+	}
+	.price_discunt strong {
+		font-size: 37.818px;
+		line-height: 41px;
+	}
+	.price_discunt a {
+		font-size: 19px;
+		line-height: 19px;
+		padding: 12px 24px;
+	}
+	.footer_content {
+		width: 563px;
+	}
+	.footer_content p{
+		width: 563px;
+	}
+
 
 }
 
 
 @media all and (max-width: 991px) {
-	
+	.footer_content::after {
+		display: none;
+	}
+	.footer_content {
+		width: 100%;
+	}
+	.footer_content p{
+		width: 100%;
+	}
+	.footer_area.sp {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+	.footer_content h3 {
+		font-size: 30px;
+		line-height: 38px;
+		margin-bottom: 6px;
+	}
+	.footer_content a {
+		font-size: 16px;
+		line-height: 28px;
+		padding: 9px 29px;
+		margin-top: 22px;
+	}
+	.hero_content_area {
+		max-width: 720px;
+		float: inherit;
+		padding: 10px;
+		margin: auto;
+	}
+	.hero_image {
+		position: relative;
+		max-width: 720px;
+		padding: 10px;
+		margin: auto;
+	}
+	.header_area {
+		padding-bottom: 0;
+	}
+	.header_content {
+		padding-bottom: 90px;
+	}
+	.work_scroll_image {
+		height: 350px;
+		margin-right: 0px;
+		margin-bottom: 60px;
+	}
+	.work_accrodion {
+		padding: 15px 0px;
+	}
+	.control_content {
+		padding-right: 0;
+	}
+	.future_image_scroll {
+		height: 350px;
+		margin-bottom: -161px;
+	}
+	.transcribing_section.bg_white.sp {
+		padding-top: 145px;
+	}
+	.transcribin_item_2::after {
+		display: none;
+	}	
+	.transcribin_item h4 {
+		margin-bottom: 5px;
+	}
+	.transcribin_item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
 
 }
 

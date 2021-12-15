@@ -6,7 +6,6 @@ jQuery(document).ready(function(){
 		autoplayTimeout:4000,
 		autoplay:false,
 		smartSpeed:4000,
-		stagePadding:330,
 		responsive :{
 			0:{
 				items:1,
@@ -14,14 +13,15 @@ jQuery(document).ready(function(){
 			425:{
 				items:1,
 			},
-			575:{
+			576:{
 				items:1.4,
 			},
-			767:{
-				items:1.4,
+			768:{
+				items:1.1,
 			},
 			992:{
 				items:1.1,
+				stagePadding:330,
 			}
 		}
 	});
@@ -30,7 +30,6 @@ jQuery(document).ready(function(){
 		autoplayTimeout:4000,
 		autoplay:false,
 		smartSpeed:4000,
-		stagePadding:230,
 		responsive :{
 			0:{
 				items:1,
@@ -38,14 +37,15 @@ jQuery(document).ready(function(){
 			425:{
 				items:1,
 			},
-			575:{
+			576:{
 				items:1.4,
 			},
-			767:{
+			768:{
 				items:1.4,
 			},
 			992:{
 				items:1.4,
+				stagePadding:230,
 			}
 		}
 	});
