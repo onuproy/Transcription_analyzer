@@ -673,3 +673,35 @@ p{
 .transcribin_item {
 	width: 90%;
 }
+
+/* Table Css  */
+.benifits_table {
+	border: 1px solid #E4E6EC;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.table > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(1) {
+	width: 45%;
+}
+.table > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(2) {
+	width: 30%;
+}
+.benifits_table .table thead tr th {
+	background: #1C4772;
+	border: none;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	padding: 13px 24px;
+}
+.benifits_table .table tbody tr td {
+	color: #666666;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 23px;
+	padding: 13px 24px;
+}
+.table.table-striped {
+	margin-bottom: 0;
+}
