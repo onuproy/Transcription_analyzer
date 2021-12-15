@@ -8,18 +8,26 @@ jQuery(document).ready(function(){
 		smartSpeed:4000,
 		responsive :{
 			0:{
-				items:1,
+				items:1.1,
+				stagePadding:70,
 			},
-			425:{
-				items:1,
+			414:{
+				items:1.1,
+				stagePadding:90,
 			},
 			576:{
-				items:1.4,
+				items:1.1,
+				stagePadding:120,
 			},
 			768:{
 				items:1.1,
+				stagePadding:200,
 			},
 			992:{
+				items:1.1,
+				stagePadding:280,
+			},
+			1199:{
 				items:1.1,
 				stagePadding:330,
 			}
@@ -32,18 +40,26 @@ jQuery(document).ready(function(){
 		smartSpeed:4000,
 		responsive :{
 			0:{
-				items:1,
+				items:1.4,
+				stagePadding:40,
 			},
-			425:{
-				items:1,
+			414:{
+				items:1.4,
+				stagePadding:60,
 			},
 			576:{
 				items:1.4,
+				stagePadding:75,
 			},
 			768:{
 				items:1.4,
+				stagePadding:150,
 			},
 			992:{
+				items:1.4,
+				stagePadding:210,
+			},
+			1199:{
 				items:1.4,
 				stagePadding:230,
 			}
@@ -59,33 +75,5 @@ jQuery(document).ready(function(){
         jQuery('.slider_item_first_2').trigger('next.owl.carousel');
         return false ;          
     });
-
-	
-	// Home owlCarousel
-	// jQuery('.blog_slider').owlCarousel({
-	// 	loop:true,
-	// 	margin:25,
-	// 	nav:true,
-	// 	autoplay:false,
-	// 	navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-	// 	dots:false,
-	// 	responsive:{
-	// 		0:{
-	// 			items:1,
-	// 		},
-	// 		576:{
-	// 			items:2,
-			
-	// 		},
-	// 		768:{
-	// 			items:2,
-	// 		},
-	// 		1200:{
-	// 			items:1.5,
-	// 		}
-	// 	}
-	// });
-
-
 
 });

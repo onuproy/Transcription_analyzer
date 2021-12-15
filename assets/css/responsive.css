@@ -3,7 +3,7 @@
 		max-width: 636px;
 		float: right;
 	}
- 
+
 }
 @media all and (max-width: 1199px) {
 	.hero_content_area h1 {
@@ -136,11 +136,7 @@
 	.footer_content p{
 		width: 563px;
 	}
-
-
 }
-
-
 @media all and (max-width: 991px) {
 	.footer_content::after {
 		display: none;
@@ -212,31 +208,151 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
-
-
-
-
-
-
-
-
-
-
-
+	.left_right_arrow {
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+	.subcribe_now_btn button {
+		width: 45%;
+	}
+	.subcribe_now_btn input {
+		width: 60%;
+	}
+	.p_small_price strong {
+		font-size: 22px;
+		line-height: 36px;
+	}
+	.price_content h4 {
+		font-size: 21px;
+		line-height: 29px;
+		width: 168px;
+	}
+	.price_discunt strong {
+		font-size: 33.818px;
+		line-height: 37px;
+	}
+	.work_easier_text p {
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 24px;
+		color: #666666;
+	}
 }
-
-
 @media all and (max-width: 767px) {
-	
-
+	.contorl_image_scroll {
+		height: 250px;
+		margin-top: 40px;
+	}
+	.sub_image {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.sub_image img {
+		width: 225px;
+		margin: auto;
+	}
+	.row.custom_row_class {
+		padding: 30px 15px !important;
+	}
+	.subcribe_now_btn input {
+		width: 70%;
+		font-size: 14px;
+		line-height: 22px;
+		padding: 13px 17px;
+	}
+	.subcribe_now_btn button {
+		width: 33%;
+		font-size: 14px;
+		line-height: 22px;
+		padding: 13px 17px;
+	}
+	.price_content_area {
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		margin-top: 31px;
+	}
+	.price_section_area {
+		padding-top: 124px;
+		padding-bottom: 55px;
+	}
 }
 @media all and (max-width: 575px) {
-	
+	.setting ul li:first-child {
+		margin-right: 0;
+	}
+	.hero_content_area {
+		padding: 0px;
+		padding-bottom: 10px;
+	}
+	.hero_image {
+		padding: 0;
+	}
+	.services_single_item p {
+		width: 70%;
+	}
+	.work_man_imge {
+		float: inherit;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.work_scroll_image {
+		height: 280px;
+		margin-bottom: 35px;
+	}
+	.sp {
+		padding-top: 45px;
+		padding-bottom: 40px;
+	}
+	.future_image_scroll {
+		height: 280px;
+	}
+	.slider_image_item {
+		padding: 0px 8px;
+	}
+	.row.custom_row_class {
+		padding: 30px 0px !important;
+	}
+	.subcribe_now_btn button {
+		width: 41%;
+	}
+	.subcribe_now_btn input {
+		width: 59%;
+	}
+	.subs_content p {
+		margin-bottom: 25px;
+	}
+	.benifits_table .table thead tr th {
+		font-size: 13px;
+		line-height: 17px;
+		padding: 9px 9px;
+	}
+	.benifits_table .table tbody tr td {
+		font-size: 13px;
+		line-height: 17px;
+		padding: 9px 9px;
+	}
+	.border_top_ben {
+		margin-bottom: 41px;
+	}
+	.footer_content h3 {
+		font-size: 26px;
+		line-height: 34px;
+		margin-bottom: 6px;
+	}
+	.footer_content p {
+		margin-bottom: 15px;
+	}
 
 }
 
 @media all and (max-width: 413px) {
-	
+	.subcribe_now_btn button {
+		width: 45%;
+	}
+	.subcribe_now_btn input {
+		width: 55%;
+	}
 
 }
 
