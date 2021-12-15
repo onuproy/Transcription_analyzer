@@ -713,3 +713,27 @@ p{
 .last_child_tr td {
 	color: #18191F !important;
 }
+/* Slider Css  */
+.slider_section_area{
+	background: #1C4772;
+}
+.slider_image_item {
+	padding: 0px 12px;
+}
+.slider_image_item img {
+	width: 100%;
+	overflow: hidden;
+}
+.left_right_arrow {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 75px;
+	margin-top: 40px;
+}
+.left_right_arrow button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	margin-left: 40px;
+}
