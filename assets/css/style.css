@@ -201,15 +201,15 @@ p{
 	padding-bottom: 35px;
 }
 .hero_content_area p a {
-	text-decoration-line: underline;
+	text-decoration: underline !important;
 	color: #FFFFFF;
 }
 .hero_content_area p {
 	font-style: normal;
 	font-weight: 500;
+	color: #FFFFFF;
 	font-size: 20px;
 	line-height: 30px;
-	color: #FFFFFF;
 }
 .hero_image{
   position: relative;

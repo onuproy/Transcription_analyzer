@@ -5,11 +5,56 @@
 	}
  
 }
-@media all and (max-width: 1266px) {
-	.main_manu ul li a {
-		font-size: 14px;
-		margin-right: 25px;
+@media all and (max-width: 1199px) {
+	.hero_content_area h1 {
+		font-size: 30px;
+		line-height: 42px;
+		padding-bottom: 12px;
 	}
+	.hero_content_area h5 {
+		font-size: 20px;
+		line-height: 27px;
+		padding-bottom: 14px;
+	}
+	.hero_content_area p {
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 26px;
+	}
+	p {
+		font-weight: 500;
+		font-size: 19px;
+		line-height: 27px;
+		color: #666666;
+	}
+	.sp {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.services_single_item {
+		margin-bottom: 40px;
+	}
+
+}
+
+
+@media all and (max-width: 991px) {
+	
+
+}
+
+
+@media all and (max-width: 767px) {
+	
+
+}
+@media all and (max-width: 575px) {
+	
+
+}
+
+@media all and (max-width: 413px) {
+	
 
 }
 
