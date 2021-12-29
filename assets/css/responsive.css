@@ -1,3 +1,4 @@
+
 @media all and (min-width: 1400px) {
 	.hero_content_area {
 		max-width: 636px;
@@ -135,6 +136,13 @@
 	}
 	.footer_content p{
 		width: 563px;
+	}
+	.money_back_content h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.money_back_image img {
+		width: 250px;
 	}
 }
 @media all and (max-width: 991px) {
@@ -276,10 +284,20 @@
 		padding-top: 124px;
 		padding-bottom: 55px;
 	}
+	.money_back_image {
+		float: inherit;
+		text-align: center;
+		margin-top: 40px;
+	}
 }
 @media all and (max-width: 575px) {
 	.setting ul li:first-child {
-		margin-right: 0;
+		margin-right: 10px;
+	}
+	.setting ul li a {
+		font-size: 14px;
+		line-height: 22px;
+		padding: 10px 20px;
 	}
 	.hero_content_area {
 		padding: 0px;
@@ -343,6 +361,9 @@
 	.footer_content p {
 		margin-bottom: 15px;
 	}
+	.money_back_content p {
+		padding-bottom: 21px;
+	}
 
 }
 
@@ -352,6 +373,13 @@
 	}
 	.subcribe_now_btn input {
 		width: 55%;
+	}
+	.logo a img {
+		width: 80%;
+	}
+	.money_back_content h2 {
+		font-size: 25px;
+		line-height: 32px;
 	}
 
 }
