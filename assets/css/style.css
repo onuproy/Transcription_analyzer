@@ -819,12 +819,14 @@ body {
 	  background: #1C4772;
   }
   .slider_image_item {
-	  padding: 0px 12px;
-  }
-  .slider_image_item img {
-	  width: 100%;
-	  overflow: hidden;
-  }
+	padding: 0px 12px;
+	height: 270px;
+}
+.slider_image_item img {
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
   .left_right_arrow {
 	  display: -webkit-box;
 	  display: -ms-flexbox;

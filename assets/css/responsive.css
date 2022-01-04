@@ -144,6 +144,9 @@
 	.money_back_image img {
 		width: 250px;
 	}
+	.slider_image_item {
+		height: auto;
+	}
 }
 @media all and (max-width: 991px) {
 	.footer_content::after {
